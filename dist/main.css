@@ -5,8 +5,11 @@ html, body {
     font-family: 'Poiret One', cursive;
 }
 
-#logo {
+#main-container {
     opacity: 0;
+}
+
+.logo {
     text-align: center;
     font-size: 5rem;
 }
@@ -17,4 +20,37 @@ html, body {
           -ms-transition: opacity 5s ease-in-out;
            -o-transition: opacity 5s ease-in-out;
               transition: opacity 5s ease-in-out;
+}
+
+.main-f {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 15rem;
+}
+
+.children-f {
+    border-radius: 1em;
+    background: #07fb56; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#07fb56,#0dffe9); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#07fb56,#0dffe9); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#07fb56,#0dffe9); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #07fb56, #0dffe9); /*Standard*/
+    width: 5rem;
+    height: 50%;
+    align-self: flex-end;
+}
+
+.children-f:nth-child(3) {
+    height: 100%;
+    align-self: stretch;
+    border-radius: 2em 2em 1em 1em;
+}
+
+.children-f:nth-child(1) {
+    border-radius: 5em 0.3em 5em 0.3em;
+}
+
+.children-f:nth-last-child(1) {
+    border-radius: 1em 3em 2em 1em;
 }

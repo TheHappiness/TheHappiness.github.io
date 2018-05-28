@@ -3,9 +3,9 @@
 
         // set opasity
         setTimeout(() => {
-            const logo = document.getElementById('logo');
-            logo.classList.add('setOpasity');
-            logo.style.opacity = 1;
+            const mc = document.getElementById('main-container');
+            mc.classList.add('setOpasity');
+            mc.style.opacity = 1;
         }, 1000);
 
     });

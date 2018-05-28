@@ -5,9 +5,9 @@
 
         // set opasity
         setTimeout(function () {
-            var logo = document.getElementById('logo');
-            logo.classList.add('setOpasity');
-            logo.style.opacity = 1;
+            var mc = document.getElementById('main-container');
+            mc.classList.add('setOpasity');
+            mc.style.opacity = 1;
         }, 1000);
     });
 })();

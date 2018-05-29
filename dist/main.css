@@ -27,11 +27,13 @@ img {
     padding: 2.2em;
 }
 
-.logo {
-    text-align: center;
-    align-self: center;
-    font-size: 3rem;
-    flex-grow: 1;
+blockquote h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.b-site {
+    float: right;
 }
 
 .setOpasity {

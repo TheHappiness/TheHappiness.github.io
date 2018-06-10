@@ -15,11 +15,27 @@ footer {
     margin: auto auto 0 auto;
 }
 
-#main-container {
+.main-container {
     opacity: 0;
     display: flex;
     flex-flow: row wrap;
 }
+
+/* ------- happy you ------*/
+.center {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mail {
+    text-align: center;
+}
+
+.smile {
+    text-align: center;
+}
+
+/* ----------------------- */
 
 img {
     height: 10rem;
@@ -43,3 +59,4 @@ blockquote h3 {
            -o-transition: opacity 5s ease-in-out;
               transition: opacity 5s ease-in-out;
 }
+

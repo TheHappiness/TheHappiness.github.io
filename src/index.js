@@ -3,7 +3,7 @@
 
         // set opasity
         setTimeout(() => {
-            const mc = document.getElementById('main-container');
+            const mc = document.getElementsByClassName('main-container')[0];
             mc.classList.add('setOpasity');
             mc.style.opacity = 1;
         }, 1000);
